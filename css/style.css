@@ -1,0 +1,284 @@
+body
+{
+	background: #E4EEF4;
+}
+
+a
+{
+	text-decoration:none; 
+	color: rgb(22,22,111);
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 25px;
+}
+
+h3
+{
+	font-size: 20px;
+}
+
+a:hover
+{
+	background: #000033;
+  	border-radius: 10px;
+	color: white;
+}
+
+input[type = text],input[type = password]
+{
+  	font-size: 14px;
+	margin: 0 0 10px 0;
+	width: 280px;
+	border: 0px;
+	padding: 15px;
+}
+
+input[type = submit],form a
+{
+	font-family: B Koodak,Comic Sans MS;
+  	border-radius: 10px;
+	margin-left: 3px;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+	position: relative;
+  	background: #0000FF;
+  	border-color: #0000FF;
+}
+
+input[type = submit]:hover,form a:hover
+{
+	background: #000033;
+  	border-color: #000033;
+	cursor: pointer;
+}
+
+.my_h 
+{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+
+.my_p
+{
+	font-family: B Koodak,Comic Sans MS;
+	font-size: 17px;
+	direction: rtl;
+	text-align: justify;
+	margin: 0 auto 5px;
+	width: 55%;
+}
+
+.my_table
+{
+	margin: 0px auto 0px;
+}
+
+.login_signup_div
+{
+	width: 280px;
+	background: #0099FF;
+	margin: 5px auto 0;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: block;
+  	border-radius: 10px;
+}
+
+.persian_font
+{
+	font-family: B Koodak,Comic Sans MS;
+	direction: rtl;
+}
+
+.english_font
+{
+	font-family: Comic Sans MS;
+}
+
+.center_font
+{
+	text-align: center;
+}
+
+.justify_font
+{
+	text-align: justify;
+}
+
+.full_width
+{
+	width: 55%;
+}
+
+.third_width
+{
+  width: 280px;
+}
+
+.narrow_width
+{
+	width: 40%;
+}
+
+.show_example_div 
+{
+	display: block;
+  	border-radius: 10px;
+	background: #00CCFF;
+	font-family: B Tahoma,Comic Sans MS;
+	font-size: 18px;
+	direction: rtl;
+	text-align: justify;
+	margin: 5px auto 0;
+	padding: 10px;
+	width: 50%;
+}
+
+.logo_td
+{
+	font-family: B Nazanin,Comic Sans MS;
+	font-size: 16px;
+	font-weight: bold;
+	direction: rtl;
+	text-align: center;
+	margin: 0 auto 0;
+	margin-right: 30px;
+	width: 65%;
+}
+
+.contact_img
+{
+	height: 200px;
+	width: 135px;
+}
+
+#logo1_img
+{
+	height: 110px;
+	width: 110px;
+}
+
+#logo2_img
+{
+	height: 110px;
+	width: 135px;
+}
+
+.error_div
+{
+	font-family: B Koodak,Comic Sans MS;
+	border: 5px;
+	color: red;
+	font-size: 20px;
+	direction: rtl;
+	background: white;
+	text-align: center;
+	width: 45%;
+	margin: 10px auto 0;
+}
+
+.button_div
+{
+	width: 280px;
+	margin: 0 auto 0;
+}
+
+#next_tweet_submit
+{
+	width: 220px;
+	padding: 15px;
+	margin: 0 auto 10px;
+}
+
+.border_bottom_tr td
+{
+	padding: 5px;
+	border-bottom: 2pt solid black;
+}
+
+.rating_label
+{
+	font-family: B Koodak,Comic Sans MS;
+	font-size: 17px;
+	direction: rtl;
+	text-align: right;
+	width: 100px;
+	padding: 1px;
+	border-radius: 3px;
+	border: 1px solid #A1A3A4
+}
+
+/* hide input */
+input.radio:empty 
+{
+  	margin-left: -999px;
+}
+
+/* style label */
+input.radio:empty ~ label 
+{
+	position: relative;
+	float: left;
+	line-height: 30px;
+	margin-top: 3px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.radio:empty ~ label:before 
+{
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 40px;
+	background: #D1D3D4;
+	border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before 
+{
+	content:'\2714';
+	text-indent: 15px;
+	color: red;
+}
+
+input.radio:hover:not(:checked) ~ label 
+{
+	color: red;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before 
+{
+	content:'\2714';
+	text-indent: 15px;
+	color: white;
+	background-color: red;
+}
+
+input.radio:checked ~ label 
+{
+	color: red;
+}
+
+/* radio focus */
+input.radio:focus ~ label:before 
+{
+	box-shadow: 0 0 0 3px #999;
+}
